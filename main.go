@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	basics "goLearn/mission_job/Basics"
+	basics "mission/Basics"
 )
 
 func main(){
@@ -17,4 +17,8 @@ func main(){
 	fmt.Println("Refernce of Y=",&y)
 	basics.Func1(x)  // call by Value
 	basics.Func2(&y)	// call by Refernce(Address)
+
+	// Pattern
+	basics.Patter2()
+	basics.Pattern3()
 }
