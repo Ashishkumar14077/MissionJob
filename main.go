@@ -21,4 +21,11 @@ func main(){
 	// Pattern
 	basics.Patter2()
 	basics.Pattern3()
+	basics.Pattern4()
+	basics.Pattern5()
+	basics.Pattern6()
+	basics.Pattern7()
+	basics.Pattern8()
+	basics.Pattern9()
+	basics.Count_digit(234555)
 }
